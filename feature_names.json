@@ -1,0 +1,32 @@
+{
+    "all_features": [
+        "soil_moisture",
+        "temperature",
+        "humidity",
+        "soil_temperature",
+        "sunlight_lux",
+        "rain_sensor",
+        "temp_moisture_ratio",
+        "vapor_deficit",
+        "crop_type_Maize",
+        "crop_type_Rice",
+        "crop_type_Tomato",
+        "crop_type_Wheat",
+        "soil_type_Loamy",
+        "soil_type_Sandy"
+    ],
+    "numeric_features": [
+        "soil_moisture",
+        "temperature",
+        "humidity",
+        "soil_temperature",
+        "sunlight_lux",
+        "rain_sensor",
+        "temp_moisture_ratio",
+        "vapor_deficit"
+    ],
+    "categorical_features": [
+        "crop_type",
+        "soil_type"
+    ]
+}

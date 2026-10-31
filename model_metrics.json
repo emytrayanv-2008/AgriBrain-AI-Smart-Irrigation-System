@@ -1,0 +1,91 @@
+{
+    "classification": {
+        "Logistic Regression": {
+            "accuracy": 0.9847,
+            "precision": 0.9832,
+            "recall": 0.9799,
+            "f1_score": 0.9815,
+            "roc_auc": 0.9996,
+            "confusion_matrix": [
+                [
+                    417,
+                    5
+                ],
+                [
+                    6,
+                    292
+                ]
+            ]
+        },
+        "Decision Tree": {
+            "accuracy": 0.9556,
+            "precision": 0.9524,
+            "recall": 0.9396,
+            "f1_score": 0.9459,
+            "roc_auc": 0.9855,
+            "confusion_matrix": [
+                [
+                    408,
+                    14
+                ],
+                [
+                    18,
+                    280
+                ]
+            ]
+        },
+        "Random Forest": {
+            "accuracy": 0.9417,
+            "precision": 0.9324,
+            "recall": 0.9262,
+            "f1_score": 0.9293,
+            "roc_auc": 0.9893,
+            "confusion_matrix": [
+                [
+                    402,
+                    20
+                ],
+                [
+                    22,
+                    276
+                ]
+            ]
+        },
+        "Gradient Boosting": {
+            "accuracy": 0.9708,
+            "precision": 0.9632,
+            "recall": 0.9664,
+            "f1_score": 0.9648,
+            "roc_auc": 0.9975,
+            "confusion_matrix": [
+                [
+                    411,
+                    11
+                ],
+                [
+                    10,
+                    288
+                ]
+            ]
+        }
+    },
+    "regression": {
+        "Linear Regression": {
+            "mae": 102.97,
+            "rmse": 135.05,
+            "r2_score": 0.7499
+        },
+        "Decision Tree Regressor": {
+            "mae": 35.71,
+            "rmse": 65.2,
+            "r2_score": 0.9417
+        },
+        "Random Forest Regressor": {
+            "mae": 23.68,
+            "rmse": 43.17,
+            "r2_score": 0.9744
+        }
+    },
+    "best_classification_model": "Random Forest",
+    "best_regression_model": "Random Forest Regressor"
+}
